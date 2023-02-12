@@ -1,0 +1,43 @@
+name: test-deployment
+
+on:
+  push:
+    branches:
+      - dev
+
+# Allow one concurrent deployment
+concurrency:
+  group: "gh-pages-test"
+  cancel-in-progress: true
+
+env:
+  # Hosted GitHub runners have 7 GB of memory available, let's use 6 GB
+  NODE_OPTIONS: --max-old-space-size=6144
+
+jobs:
+  test-deploy:
+    name: test-deploy
+    runs-on: ubuntu-latest
+    strategy:
+        matrix:
+          node-version: [18.x.x]
+          # https://nodejs.org/en/about/releases/
+    steps:
+      - name: Checkout repository
+        id: checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        id: node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
+
+      - name: Install dependencies
+        id: install
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        id: build
+        run: yarn build
