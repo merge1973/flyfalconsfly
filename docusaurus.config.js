@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fly Falcons Fly',
-  tagline: 'TAGLINE GOES HERE',
+  tagline: 'Creative Minds Soar Above All',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -127,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ethan Chey. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

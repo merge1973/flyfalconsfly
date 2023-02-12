@@ -28,7 +28,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_reading_book.svg').default,
     description: (
       <>
-        Our articles are made by passionate students, for passionate students.
+        Our articles are made by passionate and creative students, for passionate 
+        and creative students.
       </>
     ),
   },

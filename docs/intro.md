@@ -1,11 +1,6 @@
 ---
 sidebar_position: 1
 ---
-import DocsCard from '@components/DocsCard';
-import DocsCards from '@components/DocsCards';
-
-
-
 
 # Tutorial Intro
 
