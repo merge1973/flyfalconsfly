@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://starlit-pixie-f4783b.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -136,7 +136,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/news',
               },
               {
                 label: 'GitHub',
