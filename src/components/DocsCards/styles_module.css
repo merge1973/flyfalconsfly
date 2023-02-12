@@ -1,0 +1,5 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 calc(var(--ifm-spacing-horizontal)*-1)
+}

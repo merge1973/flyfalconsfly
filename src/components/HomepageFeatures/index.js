@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Straightfoward Articles',
+    Svg: require('@site/static/img/undraw_publish_articles.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Enjoy reading articles with none of the filler content, none of the ads,
+        none of the popups. Just read and enjoy.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Free Forever',
+    Svg: require('@site/static/img/undraw_savings.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Access the entire website without paying a single penny. Save your money
+        on stuff you actually want to spend money on.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Made by Students, for Students',
+    Svg: require('@site/static/img/undraw_reading_book.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Our articles are made by passionate students, for passionate students.
       </>
     ),
   },
