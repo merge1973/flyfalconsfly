@@ -33,3 +33,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
+
+img {
+  pointer-events: none;
+}
+
+.lightDarkMode {
+  color: black;
+}
+[data-theme='dark'] .lightDarkMode {
+  color: white;
+}

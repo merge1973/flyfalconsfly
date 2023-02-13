@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Free Forever',
+    title: 'Free, Forever',
     Svg: require('@site/static/img/undraw_savings.svg').default,
     description: (
       <>

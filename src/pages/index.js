@@ -10,7 +10,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={'Main Page'}
       description="The official news website for Fly Falcons Fly News.">
       <HomepageHeader />
       <main>

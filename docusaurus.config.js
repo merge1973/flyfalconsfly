@@ -153,7 +153,7 @@ const config = {
       },
     }),
   customFields: {
-    description: 'We are Fly Falcons Fly, a student run news website.',
+    description: 'We are Fly Falcons Fly News, a student run news website.',
   },
 };
 
