@@ -82,10 +82,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Fly Falcons Fly',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: '/img/favicon.png',
         },
         items: [
           {

@@ -3,13 +3,11 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
-import ThemedImage from '@theme/ThemedImage';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <section className={clsx('hero hero--primary lightDarkMode', styles.heroBanner)}>
+    <section className={clsx('hero hero--primary text-white', styles.heroBanner)}>
       <div className="lg:flex lg:flex-row justify-items-center grid grid-cols-1 grid-rows-1">
         <div className="lg:flex-1 text-left lg:w-1/2 p-8 basis-3/5 place-self-center">
             <h1 className="mb-2 font-light">We are</h1>
@@ -30,13 +28,8 @@ export default function HomepageHeader() {
           </div>
         </div>
         <div className="box-border w-2/3 lg:basis-2/5 xl:w-1/3 lg:w-7/20 sm:w-2/3 p-2 lg:flex-initial place-self-center 2xl:w-auto">
-          <ThemedImage
-            alt = "Main Page Image"
-            sources={{
-              light: useBaseUrl('/img/undraw_floating.svg'),
-              dark: useBaseUrl('/img/undraw_floating-dark.svg'), // add dark mode image
-            }}
-          />
+            <img src="/img/undraw_floating.svg" className={clsx(styles.shakeVertical)}></img>
+            <img src="/img/undraw_two-lines.svg" className={clsx(styles.shakeVertical)}></img>
         </div>
       </div>     
     </section>
