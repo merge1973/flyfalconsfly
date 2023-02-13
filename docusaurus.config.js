@@ -81,6 +81,14 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      defaultMode: 'dark',
+      announcementBar: {
+        id: 'alpha',
+        content: 'Note: This website is currently a work in progress and is in active development. Report any bugs and issues <a target="_blank" href="https://github.com/merge1973/flyfalconsfly">here</a>.',
+        backgroundColor: '#ffffff',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Fly Falcons Fly',
         logo: {
