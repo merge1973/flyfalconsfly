@@ -46,7 +46,7 @@ const config = {
         },
         blog: {
           path: 'news',
-          routeBasePath: '/',
+          routeBasePath: '/news',
           blogTitle: 'Fly Falcons Fly News',
           blogDescription: 'We are Fly Falcons Fly, a student run news website.',
           showReadingTime: true,
