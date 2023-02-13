@@ -15,8 +15,8 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <HomepageAboutUs />
       </main>
+        <HomepageAboutUs />
     </Layout>
   );
 }

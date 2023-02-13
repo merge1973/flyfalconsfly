@@ -161,7 +161,7 @@ const config = {
       },
     }),
   customFields: {
-    description: 'We are Fly Falcons Fly News, a student run news website.',
+    shortDescription: `Student run since ${new Date().getFullYear()}`,
   },
 };
 

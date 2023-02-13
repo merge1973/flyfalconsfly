@@ -4,17 +4,12 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 0rem;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
 /* Animation from https://animista.net/ */
 @-webkit-keyframes shake-vertical {
   0%,
@@ -106,4 +101,19 @@
 .focusIn {
 	-webkit-animation: text-focus-in 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes gradient-xy {
+  0%, 100% {
+    background-size: 400% 400%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
+
+.gradientXY {
+  animation: gradient-xy 10s ease infinite;
 }
