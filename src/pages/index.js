@@ -3,7 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageHeader from '@site/src/components/HomepageHeader';
-import HomepageAboutUs from '@site/src/components/HomepageAboutUs';
+import HomepageBestArticles from '@site/src/components/HomepageBestArticles';
 
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
-        <HomepageAboutUs />
+        <HomepageBestArticles />
     </Layout>
   );
 }

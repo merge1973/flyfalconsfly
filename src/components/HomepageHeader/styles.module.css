@@ -117,3 +117,7 @@
 .gradientXY {
   animation: gradient-xy 10s ease infinite;
 }
+
+html {
+  scroll-behavior: smooth;
+}

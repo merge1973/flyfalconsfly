@@ -1,0 +1,19 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.bg {
+    background-color: #00ABE4;
+}
+span {
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.underline {
+    text-decoration: line-through;
+}
+.card {
+    margin: 4;
+}
