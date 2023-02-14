@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
-import $ from 'jQuery';
+import $ from 'jquery';
 
 // fucking kill me
 function getArticles(a) {
