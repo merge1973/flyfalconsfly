@@ -76,6 +76,13 @@ const config = {
     },
   ],
 
+  scripts: [
+    {
+      src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js',
+      async: true,
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

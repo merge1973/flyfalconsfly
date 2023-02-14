@@ -1,24 +1,37 @@
 {
     "articles": [
         {
-            "title": "blog article 1", 
-            "excerpt": "This is a test 1.", 
-            "author": "Ethan Chey",
-            "day": "30", 
-            "month": "October", 
-            "year": "1998", 
-            "image": "encodeURIComponent(https://play.skyfallmc.ga/assets/back-icon.png)", 
-            "url": "Lorem ipsum"
+            "title": "Hong Kong has a housing crisis. The solution: coffin homes (DEMO)", 
+            "author": "Ethan Chey",            
+            "excerpt": "Hong Kong has had a housing crisis for years. What is the solution?", 
+            "day": "1", 
+            "month": "January", 
+            "year": "2023", 
+            "image": "https://cdn.i-scmp.com/sites/default/files/styles/700x400/public/d8/video/thumbnail/2022/11/23/Youth%20Clean.jpg?itok=HEM_aUeZ", 
+            "url": "https://www.scmp.com/video/scmp-originals/3200968/living-15-sq-ft-inside-hong-kongs-coffin-homes",
+            "tags": ["international", "analysis", "hong kong", "housing"]
         },
         {
             "title": "blog article 2", 
+            "author": "Johnathan",             
             "excerpt": "This is a test 2.", 
-            "author": "Johnathan", 
             "day": "11", 
             "month": "June", 
             "year": "1979", 
-            "image": "https%3A%2F%2Fplay.skyfallmc.ga%2Fassets%2Fback-icon.png", 
-            "url": "Lorem ipsum"
+            "image": "", 
+            "url": "Lorem ipsum",
+            "tags": ["n/a"]
+        },
+        {
+            "title": "blog article 2", 
+            "author": "Johnathan",             
+            "excerpt": "This is a test 2.", 
+            "day": "11", 
+            "month": "June", 
+            "year": "1979", 
+            "image": "", 
+            "url": "Lorem ipsum",
+            "tags": []
         }
     ]
 }
