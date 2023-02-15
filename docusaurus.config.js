@@ -78,7 +78,10 @@ const config = {
 
   scripts: [
     {
-      src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js',
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js',
+    },
+    {
+      src: 'https://cdn.jsdelivr.net/npm/react-bootstrap/dist/react-bootstrap.min.js',
       async: true,
     },
   ],
