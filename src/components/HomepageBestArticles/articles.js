@@ -11,8 +11,8 @@ const articles = [
         "tags": ["international", "economics"]
     },
     {
-        "title": "blog article 2", 
-        "author": "Johnathan",             
+        "title": "Article", 
+        "author": "Name",             
         "excerpt": "This is a test 2.", 
         "day": "11", 
         "month": "June", 
@@ -22,8 +22,8 @@ const articles = [
         "tags": []
     },
     {
-        "title": "blog article 2", 
-        "author": "Johnathan",             
+        "title": "Article", 
+        "author": "Name",             
         "excerpt": "This is a test 2.", 
         "day": "11", 
         "month": "June", 
@@ -33,8 +33,8 @@ const articles = [
         "tags": []
     },
     {
-        "title": "blog article 2", 
-        "author": "Johnathan",             
+        "title": "Article", 
+        "author": "Name",             
         "excerpt": "This is a test 2.", 
         "day": "11", 
         "month": "June", 
@@ -42,7 +42,7 @@ const articles = [
         "image": "", 
         "url": "Lorem ipsum",
         "tags": []
-    }
+    },
 ]
 
 export default articles;

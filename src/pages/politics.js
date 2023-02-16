@@ -33,7 +33,7 @@ const AllCards = () => {
   };
   return allPoliticsArticles.map(renderCard);
 };
-
+// change button and make top header responsive
 export default function Politics() {
   return (
     <Layout title="Politics" description="The politics hub for Fly Falcons Fly News, a student run news website.">

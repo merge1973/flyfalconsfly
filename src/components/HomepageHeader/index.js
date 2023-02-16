@@ -23,7 +23,7 @@ export default function HomepageHeader() {
             <Link
               className="button--lg button outline  bg-transparent border-transparent hover:-translate-y-0.5"
               to="#features">
-              Learn more <i class="fa-solid fa-arrow-right"></i> 
+              Learn more <i className="fa-solid fa-arrow-right"></i> 
             </Link>
           </div>
         </div>

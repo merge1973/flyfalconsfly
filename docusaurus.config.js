@@ -82,7 +82,9 @@ const config = {
         path: './articles/politics',
         blogTitle: 'Politics',
         blogDescription: 'Politics articles from Fly Falcons Fly News.',
+        blogSidebarTitle: 'Recent articles',
         blogSidebarCount: 'ALL',
+        postsPerPage: 'ALL',
      }, 
     ],
     [
@@ -93,7 +95,9 @@ const config = {
         path: './articles/business',
         blogTitle: 'Business',
         blogDescription: 'Business news from Fly Falcons Fly News.',
+        blogSidebarTitle: 'Recent articles',
         blogSidebarCount: 'ALL',
+        postsPerPage: 'ALL',
       },
     ],
   ],
@@ -180,10 +184,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/news',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',

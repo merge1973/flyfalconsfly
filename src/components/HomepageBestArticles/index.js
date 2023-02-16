@@ -29,7 +29,7 @@ export default function HomepageBestArticles() {
   return (
     <section className={clsx("bg-gradient-to-r from-purple-500 to-blue-500", styles.gradientXY)}>
       <div className="text-center p-4 text-white">
-        <h1>Our best articles <i class="fa-solid fa-heart"></i></h1>
+        <h1>Our best articles <i className="fa-solid fa-heart"></i></h1>
         <p>Some of our best work</p>
       </div>
       <div className={clsx("", styles.focusIn)} id="card-container">
