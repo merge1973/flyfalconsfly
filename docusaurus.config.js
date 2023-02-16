@@ -44,9 +44,9 @@ const config = {
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          path: 'news',
-          routeBasePath: '/news',
+        blog: false, /*{
+          path: 'articles/politics',
+          routeBasePath: '/articles/politics/',
           blogTitle: 'Fly Falcons Fly News',
           blogDescription: 'We are Fly Falcons Fly, a student run news website.',
           showReadingTime: true,
@@ -54,7 +54,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        },*/
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -74,14 +74,41 @@ const config = {
         },
       };
     },
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'politics',       
+        routeBasePath: '/articles/politics',
+        path: './articles/politics',
+        blogTitle: 'Politics',
+        blogDescription: 'Politics articles from Fly Falcons Fly News.',
+        blogSidebarCount: 'ALL',
+     }, 
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'business',       
+        routeBasePath: '/articles/business',
+        path: './articles/business',
+        blogTitle: 'Business',
+        blogDescription: 'Business news from Fly Falcons Fly News.',
+        blogSidebarCount: 'ALL',
+      },
+    ],
   ],
 
   scripts: [
     {
       src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js',
+      async: true,
     },
     {
       src: 'https://cdn.jsdelivr.net/npm/react-bootstrap/dist/react-bootstrap.min.js',
+      async: true,
+    },
+    {
+      src: 'https://kit.fontawesome.com/c4921c6bdb.js',
       async: true,
     },
   ],
@@ -112,7 +139,8 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/news', label: 'News', position: 'left'},
+          {to: '/politics', label: 'Politics', position: 'left'},
+          {to: '/business', label: 'Business', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

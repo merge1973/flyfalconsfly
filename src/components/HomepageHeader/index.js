@@ -16,14 +16,14 @@ export default function HomepageHeader() {
             <p className="hero__subtitle indent-5 text-gray-200 opacity-90 text-xl md:text-2x1 lg:text-3xl">{siteConfig.customFields.shortDescription}</p>
             <div className="lg:flex center gap-4 px-4 grid grid-cols-1 grid-rows-1">
             <Link
-              className="button outline button--lg bg-transparent border-transparent transform hover:-translate-y-0.5 transition-transform"
+              className="button outline button--lg bg-transparent border-transparent hover:-translate-y-0.5"
               to="/news">
               Access articles
             </Link>
             <Link
-              className="button--lg button outline button--secondary bg-transparent border-transparent hover:-translate-y-0.5 transition-all"
+              className="button--lg button outline  bg-transparent border-transparent hover:-translate-y-0.5"
               to="#features">
-              Learn more &gt; 
+              Learn more <i class="fa-solid fa-arrow-right"></i> 
             </Link>
           </div>
         </div>
