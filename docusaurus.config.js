@@ -147,7 +147,7 @@ const config = {
     },
     {
       src: 'scrollAnimation.js',
-      async: false,
+      async: true,
     },
   ],
 
