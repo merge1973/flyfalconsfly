@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import { Accordion, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import latestPoliticsArticles from './_articles/politics/latestPoliticsArticles.js';
 import allPoliticsArticles from './_articles/politics/allPoliticsArticles.js';
 

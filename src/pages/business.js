@@ -3,7 +3,6 @@ import Layout from '@theme/Layout';
 import { Card } from "react-bootstrap";
 import latestBusinessArticles from './_articles/business/latestBusinessArticles.js';
 import allBusinessArticles from './_articles/business/allBusinessArticles.js';
-import Link from '@docusaurus/Link';
 
 const LatestCards = () => {
   const renderCard = (card, index) => {

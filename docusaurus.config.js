@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://starlit-pixie-f4783b.netlify.app',
+  url: 'https://flyfalconsfly.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -143,6 +143,10 @@ const config = {
     },
     {
       src: 'https://kit.fontawesome.com/c4921c6bdb.js',
+      async: true,
+    },
+    {
+      src: 'scrollAnimation.js',
       async: true,
     },
   ],

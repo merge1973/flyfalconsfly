@@ -4,10 +4,11 @@ import styles from './styles.module.css';
 import { Card } from "react-bootstrap";
 import articles from './articles.js';
 
+// fallback image appears to not be working here
 const CreatedCards = () => {
   const renderCard = (card, index) => {
       return (
-          <Card key={index} className="pb-4 text-center outline outline-2 drop-shadow-2xl">
+          <Card key={index} className="pb-4 text-center outline outline-2 drop-shadow-2xl hide">
               <Card.Img variant="top" src={card.image} className="bg-white" onError={({ currentTarget }) => {currentTarget.onerror = null; currentTarget.src="/img/articles_noimg.png";}}/>
                   <Card.Body>
                       <Card.Title className="card-title text--bold p-2"><Card.Link href={card.url}>{card.title}</Card.Link></Card.Title>
@@ -20,8 +21,6 @@ const CreatedCards = () => {
   };
   return articles.map(renderCard);
 };
-
-
 
 // add animations on scroll down
 export default function HomepageBestArticles() {

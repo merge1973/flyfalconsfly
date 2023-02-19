@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import { Accordion, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import latestSportsArticles from './_articles/sports/latestSportsArticles.js';
 import allSportsArticles from './_articles/sports/allSportsArticles.js';
 
