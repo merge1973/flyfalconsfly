@@ -146,21 +146,21 @@ const config = {
       navbar: {
         title: 'Fly Falcons Fly',
         logo: {
-          alt: 'My Site Logo',
+          alt: '',
           src: '/img/favicon.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {to: '/politics', label: 'Politics', position: 'left'},
           {to: '/business', label: 'Business', position: 'left'},
           {to: '/sports', label: 'Sports', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'doc',
+            docId: 'intro',
+            position: 'right',
+            label: 'Guides',
+          },          
+          {
+            href: 'https://github.com/merge1973/flyfalconsfly',
             label: 'GitHub',
             position: 'right',
           },
