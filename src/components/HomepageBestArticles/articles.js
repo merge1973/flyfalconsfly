@@ -8,7 +8,7 @@ const articles = [
         "year": "2023", 
         "image": "https://cdn.i-scmp.com/sites/default/files/styles/700x400/public/d8/video/thumbnail/2022/11/23/Youth%20Clean.jpg?itok=HEM_aUeZ", 
         "url": "https://www.scmp.com/video/scmp-originals/3200968/living-15-sq-ft-inside-hong-kongs-coffin-homes",
-        "tags": ["international", "economics"]
+        "category": "business"
     },
     {
         "title": "Article", 
@@ -19,7 +19,7 @@ const articles = [
         "year": "1979", 
         "image": "", 
         "url": "Lorem ipsum",
-        "tags": []
+        "category": ""
     },
     {
         "title": "Article", 
@@ -30,7 +30,7 @@ const articles = [
         "year": "1979", 
         "image": "", 
         "url": "Lorem ipsum",
-        "tags": []
+        "category": ""
     },
     {
         "title": "Article", 
@@ -41,7 +41,7 @@ const articles = [
         "year": "1979", 
         "image": "", 
         "url": "Lorem ipsum",
-        "tags": []
+        "category": ""
     },
 ]
 
