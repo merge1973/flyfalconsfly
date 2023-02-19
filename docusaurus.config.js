@@ -153,17 +153,8 @@ const config = {
           {to: '/politics', label: 'Politics', position: 'left'},
           {to: '/business', label: 'Business', position: 'left'},
           {to: '/sports', label: 'Sports', position: 'left'},
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Guides',
-          },          
-          {
-            href: 'https://github.com/merge1973/flyfalconsfly',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {type: 'doc', docId: 'intro', position: 'right', label: 'Guides'},      
+          {to: '/about', label: 'About Us', position: 'right'},
         ],
       },
       footer: {

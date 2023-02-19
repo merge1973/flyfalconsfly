@@ -22,7 +22,7 @@ export default function HomepageHeader() {
             </Link>
             <Link
               className="button--lg button outline  bg-transparent border-transparent hover:-translate-y-0.5"
-              to="#features">
+              to="/about">
               Learn more <i className="fa-solid fa-arrow-right"></i> 
             </Link>
           </div>
