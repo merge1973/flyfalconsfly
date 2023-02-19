@@ -100,6 +100,19 @@ const config = {
         postsPerPage: 'ALL',
       },
     ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'sports',       
+        routeBasePath: '/articles/sports',
+        path: './articles/sports',
+        blogTitle: 'Business',
+        blogDescription: 'Sports news from Fly Falcons Fly News.',
+        blogSidebarTitle: 'Recent articles',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 'ALL',
+      },
+    ],
   ],
 
   scripts: [
@@ -145,6 +158,7 @@ const config = {
           },
           {to: '/politics', label: 'Politics', position: 'left'},
           {to: '/business', label: 'Business', position: 'left'},
+          {to: '/sports', label: 'Sports', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

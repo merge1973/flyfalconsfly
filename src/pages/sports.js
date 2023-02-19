@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import { Accordion, Card } from "react-bootstrap";
-import latestPoliticsArticles from './_articles/politics/latestPoliticsArticles.js';
-import allPoliticsArticles from './_articles/politics/allPoliticsArticles.js';
+import latestSportsArticles from './_articles/sports/latestSportsArticles.js';
+import allSportsArticles from './_articles/sports/allSportsArticles.js';
 
 const LatestCards = () => {
   const renderCard = (card, index) => {
@@ -17,7 +17,7 @@ const LatestCards = () => {
           </Card>
       );
   };
-  return latestPoliticsArticles.map(renderCard);
+  return latestSportsArticles.map(renderCard);
 };
 
 const AllCards = () => {
@@ -31,16 +31,16 @@ const AllCards = () => {
           </Card>
       );
   };
-  return allPoliticsArticles.map(renderCard);
+  return allSportsArticles.map(renderCard);
 };
 
-export default function Politics() {
+export default function Sports() {
   return (
-    <Layout title="Politics" description="The politics hub for Fly Falcons Fly News, a student run news website.">
+    <Layout title="Sports" description="The sports hub for Fly Falcons Fly News, a student run news website.">
       <div className="grid lg:grid-cols-2 lg:grid-rows-2 p-4 pt-8 gap-4 grid-cols-1 grid-rows-3">
-        <h1 className="lg:pl-6 text-5xl lg:text-left text-center">Politics</h1>  
+        <h1 className="lg:pl-6 text-5xl lg:text-left text-center">Sports</h1>  
         <div className="lg:justify-self-end lg:order-2 order-3 justify-self-center">
-          <a href="/articles/politics" className="relative inline-flex items-center py-3 pl-4 pr-12 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 outline outline-2 group">
+          <a href="/articles/sports" className="relative inline-flex items-center py-3 pl-4 pr-12 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 outline outline-2 group">
             <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"></span>
             <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
             <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -51,7 +51,7 @@ export default function Politics() {
             <span className="no-underline relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">View all articles</span>
           </a>
         </div>
-        <p className="lg:pl-8 order-2 lg:order-3 lg:text-left text-center">The politics hub for Fly Falcons Fly News.</p>
+        <p className="lg:pl-8 order-2 lg:order-3 lg:text-left text-center">The sports hub for Fly Falcons Fly News.</p>
       </div>
       <div className="p-4 float-left pl-6">
         <h2 className="lg:text-left text-center">LATEST HEADLINES</h2>

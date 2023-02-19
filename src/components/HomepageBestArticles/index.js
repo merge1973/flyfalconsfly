@@ -29,8 +29,8 @@ export default function HomepageBestArticles() {
   return (
     <section className={clsx("bg-gradient-to-r from-purple-500 to-blue-500", styles.gradientXY)}>
       <div className="text-center p-4 text-white">
-        <h1>Our best articles <i className="fa-solid fa-heart"></i></h1>
-        <p>Some of our best work</p>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl">Our best articles <i className="fa-solid fa-heart"></i></h1>
+        <p className="text-base md:text-lg lg:text-xl">Some of our best work</p>
       </div>
       <div className={clsx("", styles.focusIn)} id="card-container">
         <div id="gridArticles" className="mx-auto grid sm:grid-cols-2 lg:grid-cols-3 lg:max-w-[1150px] 2xl:grid-cols-4 2xl:max-w-[1536px] p-8 gap-6">
