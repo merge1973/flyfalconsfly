@@ -77,19 +77,6 @@ const config = {
     [
       '@docusaurus/plugin-content-blog',
       {
-        id: 'politics',       
-        routeBasePath: '/articles/politics',
-        path: './articles/politics',
-        blogTitle: 'Politics',
-        blogDescription: 'Politics articles from Fly Falcons Fly News.',
-        blogSidebarTitle: 'Recent articles',
-        blogSidebarCount: 'ALL',
-        postsPerPage: 'ALL',
-     }, 
-    ],
-    [
-      '@docusaurus/plugin-content-blog',
-      {
         id: 'business',       
         routeBasePath: '/articles/business',
         path: './articles/business',
@@ -98,7 +85,36 @@ const config = {
         blogSidebarTitle: 'Recent articles',
         blogSidebarCount: 'ALL',
         postsPerPage: 'ALL',
+        authorsMapPath: '../authors.yml',
       },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'entertainment',       
+        routeBasePath: '/articles/entertainment',
+        path: './articles/entertainment',
+        blogTitle: 'Politics',
+        blogDescription: 'Entertainment articles from Fly Falcons Fly News.',
+        blogSidebarTitle: 'Recent articles',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 'ALL',
+        authorsMapPath: '../authors.yml',
+     }, 
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'politics',       
+        routeBasePath: '/articles/politics',
+        path: './articles/politics',
+        blogTitle: 'Politics',
+        blogDescription: 'Politics articles from Fly Falcons Fly News.',
+        blogSidebarTitle: 'Recent articles',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 'ALL',
+        authorsMapPath: '../authors.yml',
+     }, 
     ],
     [
       '@docusaurus/plugin-content-blog',
@@ -111,6 +127,7 @@ const config = {
         blogSidebarTitle: 'Recent articles',
         blogSidebarCount: 'ALL',
         postsPerPage: 'ALL',
+        authorsMapPath: '../authors.yml',
       },
     ],
   ],
@@ -150,9 +167,11 @@ const config = {
           src: '/img/favicon.png',
         },
         items: [
-          {to: '/politics', label: 'Politics', position: 'left'},
           {to: '/business', label: 'Business', position: 'left'},
+          {to: '/entertainment', label: 'Entertainment', position: 'left'},
+          {to: '/politics', label: 'Politics', position: 'left'},          
           {to: '/sports', label: 'Sports', position: 'left'},
+
           {type: 'doc', docId: 'intro', position: 'right', label: 'Guides'},      
           {to: '/about', label: 'About Us', position: 'right'},
         ],
