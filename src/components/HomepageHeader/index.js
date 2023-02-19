@@ -27,7 +27,7 @@ export default function HomepageHeader() {
             </Link>
           </div>
         </div>
-        <div className="box-border w-2/3 lg:basis-2/5 xl:w-1/3 lg:w-7/20 sm:w-2/3 p-2 lg:flex-initial place-self-center 2xl:w-auto">
+        <div className="box-border w-2/3 lg:basis-2/5 xl:w-1/3 lg:w-7/20 sm:w-2/3 p-2 py-4 lg:flex-initial place-self-center 2xl:w-auto">
             <img src="/img/undraw_floating.svg" className={clsx(styles.shakeVertical)}></img>
             <img src="/img/undraw_two-lines.svg" className={clsx(styles.shakeVertical)}></img>
         </div>

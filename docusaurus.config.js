@@ -147,7 +147,7 @@ const config = {
     },
     {
       src: 'scrollAnimation.js',
-      async: true,
+      async: false,
     },
   ],
 
@@ -184,11 +184,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Categories',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Business',
+                to: '/business',
+              },
+              {
+                label: 'Entertainment',
+                to: '/entertainment',
+              },
+              {
+                label: 'Politics',
+                to: '/politics',
+              },
+              {
+                label: 'Sports',
+                to: '/sports',
               },
             ],
           },
@@ -213,8 +225,12 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'About Us',
+                to: '/about',
+              },
+              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/merge1973/flyfalconsfly',
               },
             ],
           },
