@@ -225,6 +225,14 @@ const config = {
                 to: '/entertainment',
               },
               {
+                label: 'Fashion',
+                to: '/fashion',
+              },
+              {
+                label: 'Local',
+                to: '/local',
+              },
+              {
                 label: 'Politics',
                 to: '/politics',
               },
