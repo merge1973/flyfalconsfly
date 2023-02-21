@@ -105,6 +105,34 @@ const config = {
     [
       '@docusaurus/plugin-content-blog',
       {
+        id: 'fashion',       
+        routeBasePath: '/articles/fashion',
+        path: './articles/fashion',
+        blogTitle: 'Fashion',
+        blogDescription: 'Fashion articles from Fly Falcons Fly News.',
+        blogSidebarTitle: 'Recent articles',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 'ALL',
+        authorsMapPath: '../authors.yml',
+     },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'local',       
+        routeBasePath: '/articles/local',
+        path: './articles/local',
+        blogTitle: 'Politics',
+        blogDescription: 'Local articles from Fly Falcons Fly News.',
+        blogSidebarTitle: 'Recent articles',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 'ALL',
+        authorsMapPath: '../authors.yml',
+     }, 
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
         id: 'politics',       
         routeBasePath: '/articles/politics',
         path: './articles/politics',
@@ -173,6 +201,8 @@ const config = {
         items: [
           {to: '/business', label: 'Business', position: 'left'},
           {to: '/entertainment', label: 'Entertainment', position: 'left'},
+          {to: '/fashion', label: 'Fashion', position: 'left'},
+          {to: '/local', label: 'Local', position: 'left'},
           {to: '/politics', label: 'Politics', position: 'left'},          
           {to: '/sports', label: 'Sports', position: 'left'},
 
