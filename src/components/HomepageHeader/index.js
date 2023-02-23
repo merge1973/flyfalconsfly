@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 export default function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <section className={clsx('hero hero--primary text-white bg-gradient-to-br from-cyan-600', styles.heroBanner, styles.gradientXY)}>
+    <section className={clsx('hero hero--primary text-white bg-gradient-to-br from-cyan-600 2xl:justify-center', styles.heroBanner, styles.gradientXY)}>
       <div className="lg:flex lg:flex-row justify-items-center grid grid-cols-1 grid-rows-1">
         <div className={clsx("lg:flex-1 text-left lg:w-1/2 p-12 basis-3/5 place-self-center", styles.focusIn)}>
             <h1 className="mb-2 font-light">Welcome to</h1>
