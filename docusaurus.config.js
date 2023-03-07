@@ -281,7 +281,7 @@ const config = {
       },
     }),
   customFields: {
-    shortDescription: `Student run since ${new Date().getFullYear()}`,
+    shortDescription: 'Student run since 2023',
   },
 };
 
