@@ -1,5 +1,5 @@
 # Fly Falcons Fly News
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ec61145e-3035-4d72-9c9f-229c31442e1b/deploy-status)](https://app.netlify.com/sites/starlit-pixie-f4783b/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec61145e-3035-4d72-9c9f-229c31442e1b/deploy-status)](https://app.netlify.com/sites/flyfalconsfly/deploys)
 
 This repository contains Fly Falcons Fly News, a student run news website. Visit the page [here](https://flyfalconsfly.netlify.app/).
 
